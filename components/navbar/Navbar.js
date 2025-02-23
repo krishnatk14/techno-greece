@@ -8,6 +8,10 @@ export const menuItems = [
   { name: "events", href: "events" },
   { name: "merch", href: "/#merch" },
   { name: "news", href: "/#social" },
+  {
+    name: "Book Party Spot",
+    href: "book-party-spot"
+  }
 ];
 
 const Navbar = () => {

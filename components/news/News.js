@@ -1,13 +1,13 @@
-import axios from "axios";
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
-import UiSpinner from "../ui/UiSpinner/UiSpinner";
+// import axios from "axios";
+// import Image from "next/image";
+import React/* , { useEffect, useState } */ from "react";
+// import UiSpinner from "../ui/UiSpinner/UiSpinner";
 import styles from "./News.module.scss";
-import logo from "../../public/images/technogreececolorlogo.png";
-import SocialCard from "./SocialCard/SocialCard";
+// import logo from "../../public/images/technogreececolorlogo.png";
+// import SocialCard from "./SocialCard/SocialCard";
 
 const News = () => {
-  const mediaCount = 8;
+  /* const mediaCount = 8;
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [mediaArray, setMediaArray] = useState([]);
@@ -37,14 +37,14 @@ const News = () => {
       }
     };
     fetchMedia();
-  }, []);
+  }, []); */
 
   return (
     <section className={styles.compWrap} id={"social"}>
       <h2>News</h2>
       <div>
         <div className={styles.main}>
-          {loading ? (
+          {/* {loading ? (
             <UiSpinner />
           ) : error ? (
             <div className={styles.error}>
@@ -56,7 +56,10 @@ const News = () => {
                 <SocialCard key={media.id} media={media} />
               ))}
             </div>
-          )}
+          )} */}
+          <div className={styles.error}>
+            Instagram feed temporarily unavailable
+          </div>
         </div>
       </div>
       <div className={styles.transitionBot} />

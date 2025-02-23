@@ -65,9 +65,9 @@ const Home = () => {
       </div> */}
       {/* <DjInvite /> */}
       {/* <Merch /> */}
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <News />
-      </div>
+      </div> */}
       <Footer />
     </>
   );
